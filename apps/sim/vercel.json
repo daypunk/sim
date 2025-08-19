@@ -23,8 +23,8 @@
   ],
   "rewrites": [
     {
-      "source": "/.well-known/microsoft-identity-association.json",
-      "destination": "/microsoft-identity-association.json"
+      "source": "/.well-known/microsoft-identity-association",
+      "destination": "/microsoft-identity-association"
     }
   ]
 }
