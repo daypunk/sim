@@ -21,10 +21,11 @@
       "schedule": "0 2 * * *"
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/.well-known/microsoft-identity-association",
-      "destination": "/microsoft-identity-association"
+      "source": "/.well-known/microsoft-identity-association.json",
+      "destination": "/api/microsoft-identity-association",
+      "permanent": false
     }
   ]
 }
